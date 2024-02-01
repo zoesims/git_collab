@@ -33,6 +33,10 @@ ggplot(diamonds, aes(x = clarity, y = depth, color = carat)) +
 ### size greater than 1 carat or cut is "Ideal"
 ```
 
+
+And now I am typing right here. Above Step 6.
+
+
 ## STEP 6: Uh oh, merge conflicts!
 
 ```{r break-it-1}
