@@ -25,9 +25,8 @@ library(tidyverse)
 ```
 
 ```{r partner 2}
-### In this code chunk, start with the diamonds dataset (built in to
-### ggplot2 package) and create a subset based on filtering, e.g., 
-### size greater than 1 carat or cut is "Ideal"
+ggplot(diamonds, aes(x = carat, y = price)) +
+  geom_point()
 ```
 
 ## STEP 6: Uh oh, merge conflicts!
