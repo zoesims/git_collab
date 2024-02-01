@@ -34,12 +34,9 @@ ggplot(diamonds, aes(x = clarity, y = depth, color = carat)) +
 ```
 
 
-<<<<<<< HEAD
 And now I am typing right here. Above Step 6.
 
-=======
 NO.
->>>>>>> fa30df850ec18c5ab75984079d1bf9ecd2270044
 
 ## STEP 6: Uh oh, merge conflicts!
 
