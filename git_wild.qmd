@@ -19,14 +19,18 @@ library(tidyverse)
 ## STEP 4: No merge conflicts!
 
 ```{r partner 1}
-### In this code chunk, start with the diamonds dataset (built in to
-### ggplot2 package) and create a plot of price vs. carat (or some other
-### variables of your choice)
+# And now we make a plot
+ggplot(diamonds, aes(x = clarity, y = depth, color = carat)) +
+  geom_point() + geom_jitter()
+
 ```
 
+
+
 ```{r partner 2}
-ggplot(diamonds, aes(x = carat, y = price)) +
-  geom_point()
+### In this code chunk, start with the diamonds dataset (built in to
+### ggplot2 package) and create a subset based on filtering, e.g., 
+### size greater than 1 carat or cut is "Ideal"
 ```
 
 ## STEP 6: Uh oh, merge conflicts!
