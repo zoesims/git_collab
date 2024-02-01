@@ -1,0 +1,47 @@
+---
+title: "Wild git collaboration practice!"
+author: "your names here!"
+date: "2/1/2024"
+format: 
+  html:
+    embed-resources: true
+theme: darkly
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+library(tidyverse)
+```
+
+## STEP 4: No merge conflicts!
+
+```{r partner 1}
+### In this code chunk, start with the diamonds dataset (built in to
+### ggplot2 package) and create a plot of price vs. carat (or some other
+### variables of your choice)
+```
+
+```{r partner 2}
+### In this code chunk, start with the diamonds dataset (built in to
+### ggplot2 package) and create a subset based on filtering, e.g., 
+### size greater than 1 carat or cut is "Ideal"
+```
+
+## STEP 6: Uh oh, merge conflicts!
+
+```{r break-it-1}
+### Both partners - delete this comment, then write some code here
+### to plot, summarize, calculate something simple using the diamonds
+### dataset (or anything you like, really)
+```
+
+## STEP 10: And even more merge conflicts!
+
+```{r break-it-2}
+### Both partners - delete this comment, then write some code here
+### to plot, summarize, calculate something simple using the diamonds
+### dataset (or anything you like, really)
+```
